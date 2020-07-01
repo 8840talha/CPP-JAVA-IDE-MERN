@@ -1,0 +1,45 @@
+@media only screen and (max-width: 600px) {
+  .h {
+    font-size: small;
+    text-align: center;
+  }
+ 
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+}
+
+.text {
+  background: url(http://i.imgur.com/2cOaJ.png);
+  background-attachment: local;
+  background-repeat: no-repeat;
+  padding-left: 35px;
+  padding-top: 10px;
+  border-color: #ccc;
+  border: none;
+}
+
+.text:focus {
+  outline: none;
+}
+
+textarea {
+  border: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+input {
+  border: none;
+}
+
+input:focus {
+  outline: none
+}
+
+/* textarea:focus {
+  outline: none;
+} */
